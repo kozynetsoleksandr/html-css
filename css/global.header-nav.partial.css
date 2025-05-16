@@ -1,0 +1,30 @@
+.header-nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  height: 78px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  .header-nav__image-wrapper {
+    padding-left: 10px;
+    flex: 1;
+  }
+  .header-nav__menu-wrapper {
+    padding-right: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    height: 32px;
+    padding-right: 8px;
+    img {
+      width: 26.67px;
+    }
+  }
+}
+
+.header-nav--scrolled {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}

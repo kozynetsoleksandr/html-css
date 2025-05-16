@@ -1,0 +1,23 @@
+:root {
+  font-family: "Graphik", sans-serif;
+  font-weight: 400;
+  --light-text: #ffffff;
+  --primary-button: #2091f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 320px) {
+  .container {
+    padding: 0 20px;
+    text-align: center;
+  }
+}
