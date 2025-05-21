@@ -13,13 +13,11 @@
     ></script>
   </head>
   <body>
-    <header class="header">
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
-      ></nav>
-    </header>
+    <header
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="global.header-nav.partial.html"
+    ></header>
     <main>
       <section
         data-hx-trigger="load"
@@ -33,5 +31,6 @@
       ></section>
     </main>
     <footer></footer>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
