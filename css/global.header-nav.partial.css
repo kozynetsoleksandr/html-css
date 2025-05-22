@@ -36,6 +36,9 @@
 }
 
 @media (min-width: 320px) {
+  body.no-scroll {
+    overflow: hidden;
+  }
   .header__burger {
     display: block;
     z-index: 101;
@@ -103,6 +106,9 @@
 }
 
 @media (min-width: 700px) {
+  body.no-scroll {
+    overflow: hidden;
+  }
   .header__burger {
     display: block;
     z-index: 101;
