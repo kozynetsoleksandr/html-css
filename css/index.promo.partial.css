@@ -10,7 +10,7 @@
 .promo__title {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #1e2538;
+  color: var(--color-second-text);
   margin: 0;
 }
 
@@ -42,12 +42,11 @@
   display: block;
 }
 
-
 @media (min-width: 700px) {
-    .promo {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: left
-    };
+  .promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
 }

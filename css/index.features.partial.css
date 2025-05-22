@@ -17,42 +17,7 @@
         letter-spacing: 0.2;
       }
     }
-    .features__video {
-      margin-top: 50px;
-      position: relative;
-      .features__video-laptop {
-        background-image: url("../img/features_video.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 215.77px;
-        border-radius: 14.69px;
-      }
-      .features__video-circle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 61.42px;
-        height: 61.42px;
-        border-radius: 50%;
-        background-color: var(--primary-button);
-      }
-      .features__video-row {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 12.8px;
-        height: 15.36px;
-      }
-    }
     .features__list {
-      margin: 50px 81.5px 80px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      row-gap: 75px;
-
       .features__item {
         display: flex;
         flex-direction: column;
@@ -77,5 +42,66 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 320px) {
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .features__list {
+    margin: 50px 81.5px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 75px;
+  }
+  .features__subtitle-second {
+    display: none;
+  }
+  .features__video {
+    margin-top: 50px;
+    position: relative;
+    .features__video-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 61.42px;
+      height: 61.42px;
+      border-radius: 50%;
+      background-color: var(--primary-button);
+    }
+    .features__video-row {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 12.8px;
+      height: 15.36px;
+    }
+  }
+}
+@media (min-width: 700px) {
+  .features__list {
+    margin: 50px 81.5px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 75px;
+  }
+  .features__container :nth-child(2) {
+    order: 3;
+  }
+  .features__subtitle-second {
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: var(--color-second-text);
   }
 }
