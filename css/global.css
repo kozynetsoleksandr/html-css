@@ -13,6 +13,8 @@
   --color-text-light: #64748b;
   --color-background: #ffffff;
   --color-border: #e2e8f0;
+  --color-dark-text: #252B42;
+  --color-alt-text: #374754;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
