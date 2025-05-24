@@ -1,0 +1,56 @@
+.testimonials__container {
+  padding: 100px 30px;
+}
+
+.testimonials__title {
+  font-size: 48px;
+  line-height: 55px;
+  color: var(--color-dark-text);
+  margin-bottom: 80px;
+}
+.testimonials__wrapper-image {
+  width: 127px;
+  height: 50px;
+  margin: auto;
+  padding: 8.45px;
+  margin-bottom: 45px;
+}
+
+.testimonials__description {
+  margin-bottom: 87px;
+}
+
+.testimonials__social {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.testimonials__social-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials__text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.testimonials__name {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+
+.testimonials__role {
+  font-size: 14px;
+  margin: 0;
+  color: var(--color-second-text);
+}
+
+.partners__cta-button {
+  margin: 80px 41.5px 100px;
+}
