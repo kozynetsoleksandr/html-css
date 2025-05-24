@@ -15,6 +15,7 @@
   --color-border: #e2e8f0;
   --color-dark-text: #252B42;
   --color-second-text: #374754;
+  --border-color: #D8D8D8;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -32,7 +33,7 @@
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 img {

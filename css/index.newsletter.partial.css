@@ -54,7 +54,7 @@
 
 .newsletter__input {
   padding: 1rem;
-  border: none;
+  border: 2px solid var(--primary-button);
   border-radius: 2rem;
   background-color: var(--color-background);
   width: 100%;
