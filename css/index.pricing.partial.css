@@ -1,0 +1,125 @@
+.pricing {
+  background-color: var(--color-dark-text);
+}
+.pricing__wrapper {
+  padding: 100px 41.5px 100px 41.5px;
+}
+.pricing__title {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  color: var(--light-text);
+  margin-bottom: 7px;
+}
+.pricing__description {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: var(--light-text);
+  margin: 0px 25px 80px 25px;
+}
+
+.pricing__card {
+  background-color: var(--light-text);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.pricing__label {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-dark-text);
+}
+.pricing__type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--color-second-text);
+  margin-bottom: 30px;
+  min-height: 46px;
+}
+.pricing__price {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing__price-period-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pricing__amount {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 74px;
+  line-height: 84px;
+  color: var(--color-dark-text);
+}
+
+.pricing__period {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  color: var(--color-second-text);
+}
+
+.pricing__currency {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.pricing__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 63px;
+  margin-bottom: 30px;
+}
+.pricing__feature {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--color-dark-text);
+  text-wrap: nowrap;
+}
+
+.pricing__card--highlight {
+  background-color: var(--primary-button);
+}
+.pricing__card--highlight * {
+  color: var(--light-text);
+}
+
+.pricing__card--highlight .pricing__button {
+  background-color: var(--light-text);
+  color: var(--primary-button);
+}
+
+@media (min-width: 320px) {
+  .pricing__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (min-width: 1186px) {
+  .pricing__cards {
+    display: flex;
+    align-items: center;
+  }
+  .pricing__card--highlight {
+    min-height: 693px;
+    .pricing__label {
+      margin-top: 52px;
+    }
+  }
+}

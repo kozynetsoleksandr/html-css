@@ -50,4 +50,5 @@ img {
 ul,
 li {
   all: unset;
+  list-style: none;
 }
