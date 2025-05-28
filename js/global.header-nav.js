@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function () {
-    const nav = document.querySelector('.header__container');
+    const nav = document.querySelector('.header');
     if (window.scrollY > 10) {
         nav.classList.add('header__nav--scrolled');
     } else {
